@@ -104,4 +104,4 @@ while opcion !="4":
     elif opcion=="4":
         break
                     
-
+#ESTOY HACIENDO CAMBIOS PARA LAS PRACTICAS EN CLASE DE GESTION :D
