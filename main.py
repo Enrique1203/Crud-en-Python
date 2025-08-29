@@ -99,7 +99,7 @@ while opcion !="4":
                     sueldo=em["sueldo"]
                     print(" ",cod," "*6,nombre," "*(20-len(nombre)),cedula," "*1,cargo," "*(20-len(cargo)),depto," "*(20-len(depto)),sueldo)
                 print("*"*111)
-                input("Presiones una tecla para continuar")
+                input("Presiones una CUALQUIER tecla para continuar")
     
     elif opcion=="4":
         break
