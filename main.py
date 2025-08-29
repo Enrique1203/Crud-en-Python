@@ -74,7 +74,7 @@ while opcion !="4":
         opc=""
         while opc != "3":
             os.system("cls")
-            opc=men.menus(lis2,"MANTENIMIENTO DE EMPLEADO")
+            opc=men.menus(lis2,"MANTENIMIENTO DE LOS EMPLEADO")
             os.system("cls")
             if opc == "1":
                 print("*"*20,"INGRESOS DE EMPLEADOS","*"*20)
@@ -99,9 +99,10 @@ while opcion !="4":
                     sueldo=em["sueldo"]
                     print(" ",cod," "*6,nombre," "*(20-len(nombre)),cedula," "*1,cargo," "*(20-len(cargo)),depto," "*(20-len(depto)),sueldo)
                 print("*"*111)
-                input("Presiones una tecla para continuar")
+                input("Presiones cualquier tecla para continuar")
     
     elif opcion=="4":
         break
                     
 
+#ESTE ES UN CAMBIO NUEVO PARA LA PRACTICA EN CLASE DE GESTIÓN DE CONFIGURACIÓN. :D 
